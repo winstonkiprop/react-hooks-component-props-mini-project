@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Article from "../components/Article";
-
+import Article from "../components/ArticleList.js"
 test("renders a <article> element", () => {
   const { container } = render(
     <Article
